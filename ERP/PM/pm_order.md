@@ -1,4 +1,8 @@
 # Maintenance Order (Work Order) 
+Maintenance Order
+: The Maintenance Order object represents the planning an execution of work including the breakdown into steps, allocation to Work Centres, scheduling and materials, tools and other resources.
+
+
 ## Maintenance Order Concept 
 <!--Simplified conceptual Model -->
 ```mermaid

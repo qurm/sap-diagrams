@@ -18,6 +18,7 @@
 * Diagrams and notes for SAP data models and other SAP scenarios.
 * A personal collection of re-usable diagrams tht can be freely used in your documentation and presentations.
 * Useful for Functional consultants, Developers, Project Managers working with SAP ERP.
+* A reference for SAP Certification, intended to have a similar scope and structure when complete. 
 * Uses simple text-based Markdown files.
 * Based on the popular [Mermaid](https://mermaid-js.github.io/mermaid/#/) tool, these diagrams are quick to customise and adapt to your situation.  
 
@@ -66,17 +67,21 @@ Export in common formats.
 
 Embed diagrams
 
-<!--
-## Table
 
-Route | Description
---- | ---
-/login |
-/example | List of all examples
-/example-new | Create a new example
-/example-edit/:id | Edit a example, by passing his id
-/* | Goes to a not found page
--->
+## Contents
+|                  |      Master Data       |         Transactional          |             Description            |
+| :--------------- | :----------------: | :------------------: |  :-------------------------------- |
+| [PM / EAM ](./ERP/PM/index.md)      | &check; |  &check; | Plant Maintenance, Asset Management. |
+| MM            |  |    | Materials Management, Supply Chain. |
+| SD      |  |    | Sales, Billing. |
+| [Integration](./Int/index.md)     | &check; |    | Interfaces, integration with other systems. |
+| [UI](./UI/index.md)       |  |    | User Interface technologies, UI5/Fiori, FLP, GUI.  |
+| Deploy             |  |    | Deployment, Transports, Environments.  |
+
+:white_check_mark: Complete
+&check; In progress
+
+
 ## To Do
 Further diagrams will be added over time, as they are found useful in my work.
 If you are looking for something in particular, create a request in an Issue.
@@ -85,11 +90,16 @@ If you are looking for something in particular, create a request in an Issue.
 
 Thank you for considering contributing to SAP Diagrams.
 
-Please first note we have a code of conduct, please follow it in all your interactions with the project.
-
 We welcome any type of contribution, not only code. You can help with:
 - **Review**: Review the diagrams, and feedback any gaps or corrections.
-- **Contribute**: Add new diagrams in a similar style, either paste into an Issue, or as a Pull request.
+- **Contribute**: Add new diagrams in a similar style, either paste into an Issue, or as a Pull request.  See the templates folder for examples of the preferred style.
 - **Issues**: Request diagrams via an Issue, or look at the [open issues](https://github.com/qurm/sap-diagrams/issues) and comment on them, showing what is interesting to you.
+
+## References
+
+https://mermaid-js.github.io/mermaid/#/README
+https://www.markdownguide.org/
+https://github.github.com/gfm/
+
 
 <!--copyright--->

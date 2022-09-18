@@ -2,6 +2,7 @@
 Use case
 Organise by Technology,Spatial etc
 <!--Simplified conceptual Model -->
+<!--Key objects and relationships to other key objects.  Try to show the ocntext of how this object is used. -->
 ## Functional Location Concept
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
@@ -12,12 +13,13 @@ flowchart LR
     Func_Location --> Class_&_Characteristics
     
     Parent_Location --hierarchy--> Location --hierarchy--> Child_Location
-    Location --hierarchy--> Equipment
+    Location --> Equipment --hierarchy--> Child_Equipment
     
 ```
 
 ## Functional Location
 <!--Data Model -->
+<!--Main objects only, only show any important fields -->
 ```mermaid
 erDiagram
     Func_Location ||--|{ Address : "located at"
@@ -43,6 +45,7 @@ Also related to Equipment, Order, Noti, Maintenance item,
 
 ## Functional Location - Data model
 <!--Technical Data Model -->
+<!--Any useful, show fields that are PK, FK, or any others.  May need multiple diagrams for detail-->
 ```mermaid
 erDiagram
     ILOA ||--|| IFLOT : relates
@@ -69,10 +72,10 @@ erDiagram
 
 ```  
 Note link to AUSP can be direct or via INOB when "Multiple Objects Allowed"
+
+<!--Describe key tables or special relationships -->
 ### ILOA Func_Location master data
 iloan   103670748
 objnr   OR000103670748
-
- many custom fields
 
 ### ADRC  Address
