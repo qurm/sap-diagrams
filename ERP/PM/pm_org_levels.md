@@ -1,7 +1,8 @@
-# Organisational Units
-1 General
-2 Location-based
-3 Planning-based
+# Enterprise Structure & Organisational Objects
+The PM module inherits from the overall *Enterprise Structure* which generally will implement one or more *Plant*. Consider these areas 
+- General Enterprise
+- Location-based
+- Planning-based
 
 ```mermaid
 erDiagram
@@ -11,7 +12,7 @@ erDiagram
 
     Maint_Plant ||--o{ Location : has 
     Maint_Plant ||--o{ Maint_Work_Center : has 
-    Maint_Work_Center ||--o{ Org_Unit : has 
+    Maint_Work_Center ||--o| Org_Unit : "has resources"
   
     Planning_Plant ||--o{ Maint_Planner_Groups : has 
 
@@ -19,9 +20,9 @@ erDiagram
 ## HR Organisational Units
 ```mermaid
 erDiagram
-    Org_Unit ||--o{ Personel_Number : has 
-    Personel_Number ||..o{ Business_Partner : has 
-    Personel_Number ||--o{ SAP_User : has 
+    Org_Unit ||--o{ Personel_Number : contains 
+    Personel_Number ||..|| Business_Partner : has 
+    Personel_Number ||--|| SAP_User : has 
 ```
 
 The organizational levels are structured as follows:
