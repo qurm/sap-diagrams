@@ -26,6 +26,27 @@ The layouts are automatically generated from the text, and the benefit is that t
 
 ## Example
 
+### User Journey for Standard Maintenance Process
+```mermaid
+journey
+    title Standard Noti-Order 
+    section Maintenance Requirement 
+      Create Noti: 5: User, Planner
+    section Plan Order
+      Identify Work: 3: Planner
+      Resources: 3: Planner
+      Materials: 3: Planner
+    section Check Release Order
+      Check Material: 1: Planner
+      Schedule resources: 1: Planner
+    section Execute
+      Execute Order: 5: Technician
+      Confirm Order: 5: Technician, Planner
+    section Complete
+      Technical Completion: 5: Planner
+      Business Completion: 5: Supervisor, Controller
+```
+
 ### Maintenance Order (Work Order) 
 <!--Data Model -->
 ```mermaid

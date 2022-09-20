@@ -1,5 +1,5 @@
 # Functional Location
-This represents a physical or logical location used to locate the *Technical Objects* on which the Maintenance processes are based.
+This represents a physical or logical location used to locate the *Technical Objects* on which the maintenance processes are based.
 These can be structured by dimensions such as Function (purpose), Process, Technology, or Spatial/location.  The intial setup is flexible according to the above criteria, but the structure is typically permanent and expected to be retained for the lifetime of the plant or enterprise.
 
 SAP documentation for [Functional Location](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e98c7c41bbe8439e90daa5c114a7573b/bed5b853dcfcb44ce10000000a174cb4.html?locale=en-US)
@@ -9,17 +9,24 @@ SAP documentation for [Functional Location](https://help.sap.com/docs/SAP_S4HANA
 ```mermaid
 %%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart LR
+    Maint_Plant --> Func_Location
+    Maint_Planning_Group --> Func_Location
+    Cost_Centre --> 
+    Func_Location <--> Partner
     Func_Location --> Address
+    Func_Location --> Measurement_Point
     Func_Location <--> Task_list
     Func_Location --> Object_list
     Func_Location --> Class_&_Characteristics
+    Func_Location --> Documents
     
     Superior_Location --hierarchy--> Location --hierarchy--> Child_Location
     Location --> Equipment --hierarchy--> Child_Equipment
     
 ```
 
-## Functional Location
+
+## Functional Location 	&#127981;
 <!--Data Model -->
 <!--Main objects only, only show any important fields -->
 ```mermaid

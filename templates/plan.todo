@@ -1,13 +1,37 @@
 
 PM Module:
     ☐ Technical objects
+    ☐ Measurement Point, Document, Char, Counter
+    ☐ Class and Char
     ☐ Noti & Order
     Processes:
         ☐ Planned Maintenance
         ☐ Inspection
         ☐ 
 
+        ☐ Order costs
+        Calculation at Header Level versus Calculation at Operation Level
+Costs for maintenance orders are calculated by default at header level. The operation account assignment (OAA) solution allows you to calculate costs of maintenance orders at operation level. Header totals are summed dynamically, as required. No costs are stored on the OAA order object database.
+Postings at Header Level versus Postings at Operation Level
+Costs for maintenance orders are settled by default at header level. The operation account assignment (OAA) solution allows you to post costs of maintenance orders at operation level. An order must have either a
+☐ ORder materials
+USer Journey or process diagram 6stepss MIGO etc
 
+Diagram types:
+  Objects:
+  ☐ Concept shown in context
+  ☐ Data model high level
+  ☐ Detailed data model
+  ☐ Example stucture, for Floc, Bom etc
+  ☐ State model for system, user status
+    Processes:
+      ☐ Lifecycle for object in process
+      ☐ USer 
+
+Styles:
+  ☐ try font-awesome icons for common SAP objects
+  https://mermaid-js.github.io/mermaid/#/flowchart?id=basic-support-for-fontawesome
+      Func_Location --> C[fa:fa-spinner Object_list]
 
 Projects:
     ☐ Anything with a colon at the end of the line is a project

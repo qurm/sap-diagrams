@@ -19,16 +19,20 @@ flowchart LR
 ```mermaid
 erDiagram
     Order ||--|{ Operation : contains
+    Operation ||--|{ Materials : requires
+    Operation ||--|{ PRTs : requires
     Order ||--|| Work_Center : "belongs to"
     Order ||--|{ Status : "has status"
     Order ||--|| Func_Location : "has location"
-    Order ||--|| Revision : has
+    Order ||--|| Settlement_Rule : has
+    Order ||--|| Costs : has
     
     Order {
         char12 Order_Number
         char8 Order_Type
         char Material_Activity_Type
         char Priority
+        date start-finish
     }
  
     Operation {
@@ -40,7 +44,7 @@ erDiagram
     }
 
 ```  
-Also related to Materials Reservations, Goods movements (AUFM), Noti
+Also related to Materials Reservations, Goods movements (AUFM), Noti, Revision
 
 ## Maintenance Order - Data model
 <!--Technical Data Model -->
