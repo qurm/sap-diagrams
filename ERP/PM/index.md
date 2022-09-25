@@ -7,7 +7,7 @@ SAP documentation for summary of [S/4 HANA Plant Maintenance](https://help.sap.c
 
 SAP documentation for [Technical Objects](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e98c7c41bbe8439e90daa5c114a7573b/59bdb853dcfcb44ce10000000a174cb4.html?locale=en-US)
 
-|  |                  |      Master Data       |         Transactional          |             Description            |
+|     |  Topic       |      Master Data       |         Transactional          |             Description  |
 | :-- | :--------------- | :----------------: | :------------------: |  :-------------------------------- |
 |  | **PM / EAM**        |  | | Plant Maintenance, Asset Management. |
 | &#127970; | [Organisation](pm_org_levels.md) &check;  | &check; |    |Organisational levels, Plant. |
@@ -30,9 +30,9 @@ SAP documentation for [Technical Objects](https://help.sap.com/docs/SAP_S4HANA_O
 |  | **Other Processes** |  |    |  |
 |  | **Other Processes** |  |    |  |
 
-:white_check_mark: Complete
-&check; In progress
-
+:white_check_mark: Complete  ✅
+&check; In progress  🗸 ✓
+✗ ❎
 &#128178;	
 &#127970;
 	

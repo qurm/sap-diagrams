@@ -9,3 +9,13 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" 
+    values:
+      layout: "default"  # from _layouts folder
+gems: [jekyll-mermaid]
+mermaid:
+  src: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'

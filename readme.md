@@ -1,11 +1,9 @@
-<div align="center">
 
-  <h1>SAP Diagrams</h1>
-</div>
 
-<p align="center">
-  A collection of diagrams for SAP ERP, ECC S/4HANA and related systems.
-</p>
+# SAP Diagrams
+
+
+*A collection of pre-built diagrams for SAP ERP, ECC S/4HANA and related systems.*
 
 <!--
 [![Add Badges](https://img.shields.io/badge/add%20badges-here-green.svg)
@@ -28,6 +26,7 @@ The layouts are automatically generated from the text, and the benefit is that t
 
 ### User Journey for Standard Maintenance Process
 ```mermaid
+{% mermaid %}
 journey
     title Standard Noti-Order 
     section Maintenance Requirement 
@@ -45,6 +44,7 @@ journey
     section Complete
       Technical Completion: 5: Planner
       Business Completion: 5: Supervisor, Controller
+{% endmermaid %}
 ```
 
 ### Maintenance Order (Work Order) 
@@ -90,17 +90,17 @@ Embed diagrams
 
 
 ## Contents
-|                  |      Master Data       |         Transactional          |             Description            |
+|                  |  Master Data       | Transactional        |          Description            |
 | :--------------- | :----------------: | :------------------: |  :-------------------------------- |
-| [PM / EAM ](./ERP/PM/index.md)      | &check; |  &check; | Plant Maintenance, Asset Management. |
-| MM            |  |    | Materials Management, Supply Chain. |
-| SD      |  |    | Sales, Billing. |
-| [Integration](./Int/index.md)     | &check; |    | Interfaces, integration with other systems. |
+| [PM / EAM ](./ERP/PM/index.md)   | ✓ |  ✓ | Plant Maintenance, Asset Management. |
+| MM      |  |    | Materials Management, Supply Chain. |
+| SD                               |  |    | Sales, Billing. |
+| [Integration](./Int/index.md)    | ✓ |    | Interfaces, integration with other systems. |
 | [UI](./UI/index.md)       |  |    | User Interface technologies, UI5/Fiori, FLP, GUI.  |
-| Deploy             |  |    | Deployment, Transports, Environments.  |
+| Deploy                    |  |    | Deployment, Transports, Environments.  |
 
-:white_check_mark: Complete
-&check; In progress
+✅ Complete
+✓ In progress
 
 
 ## To Do
