@@ -33,6 +33,12 @@ Styles:
   https://mermaid-js.github.io/mermaid/#/flowchart?id=basic-support-for-fontawesome
       Func_Location --> C[fa:fa-spinner Object_list]
 
+
+      Links
+
+      https://unicode-table.com/en/blocks/transport-and-map-symbols/
+
+      
 Projects:
     ☐ Anything with a colon at the end of the line is a project
     ☐ Projects will show some statistics next to them @1h
