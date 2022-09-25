@@ -25,8 +25,8 @@ The layouts are automatically generated from the text, and the benefit is that t
 ## Example
 
 ### User Journey for Standard Maintenance Process
-<div class="mermaid">
-```mermaid
+
+```mermaid!
 
 journey
     title Standard Noti-Order 
@@ -46,7 +46,7 @@ journey
       Technical Completion: 5: Planner
       Business Completion: 5: Supervisor, Controller
 ```
-</div>
+
 
 ### Maintenance Order (Work Order) 
 <!--Data Model -->
