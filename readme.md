@@ -25,8 +25,9 @@ The layouts are automatically generated from the text, and the benefit is that t
 ## Example
 
 ### User Journey for Standard Maintenance Process
+<div class="mermaid">
 ```mermaid
-{% mermaid %}
+
 journey
     title Standard Noti-Order 
     section Maintenance Requirement 
@@ -44,8 +45,8 @@ journey
     section Complete
       Technical Completion: 5: Planner
       Business Completion: 5: Supervisor, Controller
-{% endmermaid %}
 ```
+</div>
 
 ### Maintenance Order (Work Order) 
 <!--Data Model -->
@@ -71,8 +72,8 @@ erDiagram
     Status {
         char5 Status
     }
-
-```  
+```
+</div>
 
 ## Quick start
 
