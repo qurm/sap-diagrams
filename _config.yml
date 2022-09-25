@@ -22,7 +22,7 @@ title: SAP Diagrams
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of pre-built diagrams for SAP ERP, ECC S/4HANA and related systems.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/sap-diagrams" # the subpath of your site, e.g. /blog
 url: "https://qurm.github.io/sap-diagrams/" # the base hostname & protocol for your site, e.g. http://example.com
 # linkedin_username: anthonyive
 github_username:  qurm
@@ -56,7 +56,7 @@ plugins:
   - jekyll-spaceship
 mermaid:
   src: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'
-  
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
