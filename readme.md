@@ -26,7 +26,7 @@ The layouts are automatically generated from the text, and the benefit is that t
 
 ### User Journey for Standard Maintenance Process
 
-```mermaid!
+```
 
 journey
     title Standard Noti-Order 
