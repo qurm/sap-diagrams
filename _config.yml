@@ -36,7 +36,8 @@ safe: true
 incremental: false
 highlighter: rouge
 markdown: GFM
-theme: minima
+# theme: minima
+theme: jekyll-theme-architect
 gist:
   noscript: false
 kramdown:

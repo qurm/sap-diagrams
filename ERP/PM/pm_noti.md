@@ -8,7 +8,6 @@ It can be used with an *Order*, or as a standalone object for simpler types of w
 ## Maintenance Noti Concept 
 <!--Simplified conceptual Model -->
 ```mermaid
-%%{ init: { 'flowchart': { 'curve': 'linear' } } }%%
 flowchart LR
     Noti -.-> FLoc/Equipment
     subgraph Notification

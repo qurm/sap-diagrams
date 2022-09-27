@@ -19,10 +19,8 @@ flowchart LR
     Func_Location --> Object_list
     Func_Location --> Class_&_Characteristics
     Func_Location --> Documents
-    
     Superior_Location --hierarchy--> Location --hierarchy--> Child_Location
     Location --> Equipment --hierarchy--> Child_Equipment
-    
 ```
 
 
@@ -36,20 +34,19 @@ erDiagram
     Func_Location ||--|{ Status : "has status"
     Func_Location ||--|| Object_List : "has"
     Func_Location ||--|| Task_List : "has"
-    Func_Location ||--|| Partners : has 
-    
+    Func_Location ||--|| Partners : has
+
     Func_Location {
         char12 Location_Number
         char8 Location_Type
         char Category
-        
     }
     
     Status {
         char5 Status
     }
-
 ```  
+
 Also related to Equipment, Order, Noti, Maintenance item, 
 
 ## Functional Location - Data model

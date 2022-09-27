@@ -15,14 +15,14 @@ erDiagram
     Maint_Work_Center ||--o| Org_Unit : "has resources"
   
     Planning_Plant ||--o{ Maint_Planner_Groups : has 
-
 ```
+
 ## HR Organisational Units
 ```mermaid
 erDiagram
-    Org_Unit ||--o{ Personel_Number : contains 
-    Personel_Number ||..|| Business_Partner : has 
-    Personel_Number ||--|| SAP_User : has 
+    Org_Unit ||--o{ Personnel_Number : contains 
+    Personnel_Number ||..|| Business_Partner : has 
+    Personnel_Number ||--|| SAP_User : has 
 ```
 
 The organizational levels are structured as follows:

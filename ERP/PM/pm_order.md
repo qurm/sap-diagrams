@@ -76,6 +76,5 @@ erDiagram
         char12 objnr PK
         char5 stat PK
     }
-
 ```  
 

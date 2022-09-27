@@ -41,8 +41,13 @@ Website setup:
       https://unicode-table.com/en/blocks/transport-and-map-symbols/
 
       https://unicode-table.com/en/blocks/dingbats/
-      
+  ☐ Setup this as the github jekyll.
+  Needed to configure to support ```mermaid also some odd formatting with mulitple diagrams per page.
+  It effectively uses https://mermaid.ink to pull a Mermaid live link.
       https://github.com/jeffreytse/jekyll-spaceship
+      https://github.com/jihchi/mermaid.ink
+  Did also try this plugin, but has non-std syntax, also not updated in 8 years.
+  https://github.com/jasonbellamy/jekyll-mermaid
       
 Projects:
     ☐ Anything with a colon at the end of the line is a project
