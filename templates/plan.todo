@@ -48,6 +48,8 @@ Website setup:
       https://github.com/jihchi/mermaid.ink
   Did also try this plugin, but has non-std syntax, also not updated in 8 years.
   https://github.com/jasonbellamy/jekyll-mermaid
+  ☐ Themes in Jekyll
+  Choices from Github https://pages.github.com/themes/
       
 Projects:
     ☐ Anything with a colon at the end of the line is a project
