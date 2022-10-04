@@ -42,7 +42,6 @@ erDiagram
     Status {
         char5 Status
     }
-
 ```  
 Also related to Materials Reservations, Goods movements (AUFM), Noti, Revision
 

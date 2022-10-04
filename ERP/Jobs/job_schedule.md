@@ -1,3 +1,8 @@
+- [Background Jobs](#background-jobs)
+  - [Background Jobs Concept](#background-jobs-concept)
+  - [Background Jobs](#background-jobs-1)
+  - [Background Jobs - Data model](#background-jobs---data-model)
+    - [Values for TBTCO-STATUS:](#values-for-tbtco-status)
 # Background Jobs
 Use case
 Organise by Technology,Spatial etc
@@ -43,17 +48,20 @@ erDiagram
     }
 
 ```  
-Job Status is table TBTCO
+Job Status is table `TBTCO`
 Each batch job run has exactly one entry in this table.
-Job Step data is table TBTCP
+Job Step data is table `TBTCP`
 Each batch job step has one entry in this table.
-Job_Contexts is table TBTCCNTXT
-Time_Schedule is table TBTCS
-Jobs_Waiting_Event is table BTCEVTJOB
+Job_Contexts is table `TBTCCNTXT`
+Time_Schedule is table `TBTCS`
+Jobs_Waiting_Event is table `BTCEVTJOB`
 
-Program BTCAUX14 List jobs by Frequency
-See also other BTCAUXnn programs
+Program `BTCAUX14` List jobs by Frequency
+See also other `BTCAUXnn` programs
 
+TBTCO may contain 100Ks of records depending on the policy for deleting old records.
+Typical query is to `Group by Job_Name, Count(Start_Date), Max(Start_Date)`.
+Filter by `Status='F'` for successful, or `Status='A'` for aborted.
 ## Background Jobs - Data model
 <!--Technical Data Model -->
 <!--Any useful, show fields that are PK, FK, or any others.  May need multiple diagrams for detail-->
