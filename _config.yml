@@ -36,9 +36,9 @@ safe: true
 incremental: false
 highlighter: rouge
 markdown: GFM
-# theme: minima
-theme: jekyll-theme-architect
-remote_theme: pages-themes/architect@v0.2.0
+theme: minima
+# theme: jekyll-theme-architect
+# remote_theme: pages-themes/architect@v0.2.0
 gist:
   noscript: false
 kramdown:
@@ -56,7 +56,7 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-spaceship
-  - jekyll-remote-theme # used by github pages themes
+  # - jekyll-remote-theme # used by github pages themes
 
 # Exclude from processing.
 # The following items will not be processed, by default.
