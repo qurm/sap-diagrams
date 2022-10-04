@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/sap-diagrams" # the subpath of your site, e.g. /blog
 url: "https://qurm.github.io/sap-diagrams/" # the base hostname & protocol for your site, e.g. http://example.com
 # linkedin_username: anthonyive
-github_username:  qurm
+github_username: qurm
 
 author: Qurm
 
