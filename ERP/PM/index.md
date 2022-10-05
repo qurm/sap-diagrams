@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Contents
 
 - [ ] TODO Intro to EAM/PM

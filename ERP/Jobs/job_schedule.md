@@ -1,11 +1,9 @@
-- [Background Jobs](#background-jobs)
-  - [Background Jobs Concept](#background-jobs-concept)
-  - [Background Jobs](#background-jobs-1)
-  - [Background Jobs - Data model](#background-jobs---data-model)
-    - [Values for TBTCO-STATUS:](#values-for-tbtco-status)
 # Background Jobs
 Use case
-Organise by Technology,Spatial etc
+Background, or scheduled jobs run multiple step jobs on a schedule.  Each step runs a single program with a Variant.
+
+SAP documentation for [S/4HANA](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/2c0e7c571fbeb576e10000000a4450e5.html?locale=en-US)
+
 <!--Simplified conceptual Model -->
 <!--Key objects and relationships to other key objects.  Try to show the ocntext of how this object is used. -->
 
