@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- minima theme --><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Space and Page | SAP Diagrams</title>
+<meta name="generator" content="Jekyll v3.9.2">
+<meta property="og:title" content="Space and Page">
+<meta name="author" content="Qurm">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="A collection of pre-built diagrams for SAP ERP, ECC S/4HANA and related systems.">
+<meta property="og:description" content="A collection of pre-built diagrams for SAP ERP, ECC S/4HANA and related systems.">
+<link rel="canonical" href="https://qurm.github.io/sap-diagrams//sap-diagrams/UI/space_page1.html">
+<meta property="og:url" content="https://qurm.github.io/sap-diagrams//sap-diagrams/UI/space_page1.html">
+<meta property="og:site_name" content="SAP Diagrams">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Space and Page">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Qurm"},"description":"A collection of pre-built diagrams for SAP ERP, ECC S/4HANA and related systems.","headline":"Space and Page","url":"https://qurm.github.io/sap-diagrams//sap-diagrams/UI/space_page1.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/sap-diagrams/assets/main.css">
+<link type="application/atom+xml" rel="alternate" href="https://qurm.github.io/sap-diagrams//sap-diagrams/feed.xml" title="SAP Diagrams">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script><header class="site-header" role="banner">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/sap-diagrams/">SAP Diagrams</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/sap-diagrams/ERP/PM/">Contents</a><a class="page-link" href="/sap-diagrams/readme.html">SAP Diagrams</a><a class="page-link" href="/sap-diagrams/Change/release.html">Release Management Scenarios</a><a class="page-link" href="/sap-diagrams/ERP/Jobs/job_schedule.html">Background Jobs</a><a class="page-link" href="/sap-diagrams/ERP/PM/pm_func_loc.html">Functional Location</a><a class="page-link" href="/sap-diagrams/ERP/PM/pm_noti.html">Maintenance Notification (Noti)</a><a class="page-link" href="/sap-diagrams/ERP/PM/pm_order.html">Maintenance Order (Work Order)</a><a class="page-link" href="/sap-diagrams/ERP/PM/pm_org_levels.html">Enterprise Structure &amp;amp; Organisational Objects</a><a class="page-link" href="/sap-diagrams/ERP/PM/pm_proc_std.html">Maintenance Process - Standard</a><a class="page-link" href="/sap-diagrams/ERP/PM/pm_status1.html">System and User Status</a><a class="page-link" href="/sap-diagrams/ERP/PM/pm_work_center.html">Work Center</a><a class="page-link" href="/sap-diagrams/ERP/SD/customer1.html">Customer</a><a class="page-link" href="/sap-diagrams/Int/interface_seq.html">Integration Scenarios</a><a class="page-link" href="/sap-diagrams/UI/space_page1.html">Space and Page</a><a class="page-link" href="/sap-diagrams/templates/master_data.html">Functional Location</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h1 id="space-and-page">Space and Page</h1>
+<p>Use case
+Organise by Technology,Spatial etc</p>
+<!--Simplified conceptual Model -->
+<h2 id="space-and-page-conceptual">Space and Page Conceptual</h2>
+<p>Role may have multiple Spaces; Space may be in multiple Roles.
+Catalog determines what applications and Tiles can be used, and intent-based navigation.
+Spaces determine layout.
+<img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiJSV7IGluaXQ6IHsgJ2Zsb3djaGFydCc6IHsgJ2N1cnZlJzogJ2xpbmVhcicgfSB9IH0lJVxuZmxvd2NoYXJ0IFRCXG5Vc2VyIC0tPiBCdXNpbmVzc19yb2xlXG5CdXNpbmVzc19yb2xlIC0tPiBTcGFjZXNcbkJ1c2luZXNzX3JvbGUgLS0-IENhdGFsb2dzIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0">
+<img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5TcGFjZSAtLT4gUGFnZVxuUGFnZSAtLT4gU2VjdGlvblxuU2VjdGlvbiAtLT4gVGlsZSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19">
+<img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5DYXRhbG9nIC0tPiBUaWxlIC0tPiBUYXJnZXRfQXBwbGljYXRpb25cbkNhdGFsb2cgLS0-IEludGVudCAtLT4gVGFyZ2V0X0FwcGxpY2F0aW9uIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0"></p>
+<h2 id="space-and-page-data-model">Space and Page Data Model</h2>
+<img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZXJEaWFncmFtXG5TVEhFQURDIHx8LS18fCBVSTJfU1RQR0FDIDogXCJsaW5rcyB0b1wiXG5TVEhFQURDIHx8LS18eyBBR1JfQlVGRkkgOiBcImhhcyByb2xlXCJcbiUlLVxuU1RIRUFEQyB7XG5jaGFyMzUgaWQgUEtcbmNoYXIzNSBtYXN0ZXJfc3BhY2VfaWRcbmNoYXIyMDAgdGl0bGVcbn1cbiUlLVxuVUkyX1JTUCB7XG5jaGFyMzAgYWdyX25hbWUgXCJSb2xlXCJcbm51bWM4IG9iamVjdF9pZCBcIk9iamVjdCBJRFwiXG59XG4lJS1cbkFHUl9ISUVSIHx8LS18fCBBR1JfQlVGRkkgOiBcImhhcyBTcGFjZVwiXG5BR1JfSElFUiB7XG5jaGFyMzAgYWdyX25hbWUgXCJSb2xlXCJcbm51bWM4IG9iamVjdF9pZCBcIk9iamVjdCBJRFwiXG59XG4lJS1cbkFHUl9CVUZGSSB7XG5jaGFyMzAgYWdyX25hbWUgXCJSb2xlXCJcbm51bWM4IG9iamVjdF9pZCBcIk9iamVjdCBJRFwiXG5jaGFyMjU1IHVybCBcIlNwYWNlIElEXCJcbn1cbiUlLVxuVUkyX1NUUEdBQ1xuVUkyX1NUUEdBQyB8fC0tfHwgVUkyX1BHSEVBREMgOiBcImNvbnRhaW5zIHBhZ2VcIlxuJSUtXG5VSTJfUEdIRUFEQyB7XG5jaGFyMzUgaWQgUEsgXCJQYWdlIElEXCJcbmNoYXIzNSBwYXJlbnRfcGFnZV9pZFxuY2hhcjM1IG1hc3Rlcl9wYWdlX2lkXG5jaGFyMjAwIHRpdGxlXG59XG4lJS0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ">  
+### AGR_HIER Internet Links for a Role
+<h3 id="agrbuffi-internet-links-for-a-role">AGR_BUFFI Internet Links for a Role</h3>
+<h1 id="package-ui2fdm">Package /UI2/FDM</h1>
+<p>open in SE80 to browse</p>
+<h2 id="package-ui2fdmspace">Package /UI2/FDM_SPACE</h2>
+<h3 id="view-ui2rsp">View /UI2/RSP</h3>
+<p>where AGR_HIER.REPORT = 'SPACE_PROVIDER'
+and AGR_BUFFI.URL != ''</p>
+<h3 id="table-ui2stpgac-flp-space-space---page-assignment---customizing">Table /UI2/STPGAC FLP Space: Space - Page Assignment - Customizing</h3>
+<h2 id="package-ui2fdmpage">Package /UI2/FDM_PAGE</h2>
+<h3 id="table-ui2pgheadc-flp-page-page---customizing">Table /UI2/PGHEADC FLP Page: Page - Customizing</h3>
+<p>Role ZSAP_FXXX_R2R_AR-INCMG-PYMT
+Space SAP_SFIN_SP_AR_ACC</p>
+<p>/UI2/FDM_SPACE  Space Repository</p>
+<p>/UI2/SPACE_ENTITY_ID
+/UI2/RSP       Role space assignment</p>
+<p>/UI2/ST_BC_SCOPE               Fiori Launchpad Space Template: Business C
+/UI2/STHEAD                    FLP Space: Space Template
+/UI2/STHEADC                   FLP Space: Space - Customizing
+/UI2/STHEADCT                  FLP Space: Space Texts - Customizing
+/UI2/STHEADT                   FLP Space: Space Template Texts
+/UI2/STPGA                     FLP Space: Space Template - Page Template
+/UI2/STPGAC                    FLP Space: Space - Page Assignment - Custo
+/UI2/SYSALIASCAT               UI2: Catalog System Alias Mapping
+/UI2/SYSALIASCT                UI2: Catalog Texts
+/UI2/SYSALIASMAP               UI2: System Alias Mapping</p>
+<p>Page Tables</p>
+<p>/UI2/PG_BC_SCOPE               Fiori Launchpad Page Template: Business Co
+/UI2/PGHEAD                    FLP Page: Page Template
+/UI2/PGHEADC                   FLP Page: Page - Customizing
+/UI2/PGHEADCT                  FLP Page: Page Texts - Customizing
+/UI2/PGHEADT                   FLP Page: Page Template Texts
+/UI2/PGSEC                     FLP Page: Page Template Section
+/UI2/PGSECAI                   FLP Page: Page Template Section Assignment
+/UI2/PGSECAIC                  FLP Page: Page Section Assignment Item - C
+/UI2/PGSECAITI                 FLP Page: Page Template Section Assignment
+/UI2/PGSECAITIC                FLP Page: Page Section Assignment Item: Ti
+/UI2/PGSECC                    FLP Page: Page Section - Customizing
+/UI2/PGSECCT                   FLP Page: Page Section Texts - Customizing
+/UI2/PGSECT                    FLP Page: Page Template Section Texts</p>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/sap-diagrams/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">SAP Diagrams</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Qurm</li>
+</ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+<ul class="social-media-list"><li><a href="https://github.com/qurm"><svg class="svg-icon"><use xlink:href="/sap-diagrams/assets/minima-social-icons.svg#github"></use></svg> <span class="username">qurm</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A collection of pre-built diagrams for SAP ERP, ECC S/4HANA and related systems.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+</html>
